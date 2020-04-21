@@ -29,4 +29,5 @@ preparar_ambiente:
 		echo "Concluido!" ; \
 		echo ; \
 	done
-	#code ./$(LAB) ; \
+
+	#code ./$(LAB) ; 
