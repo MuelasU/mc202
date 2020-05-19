@@ -45,7 +45,6 @@ client *createList(int len, int head)
     //'for' começa no próximo ao "cabeça" e faz uma volta até anteceder o "cabeça"
     int i; //representará a senha
     for (i = head + 1; i != head; i++)
-
     {
         //se a senha for o tamanho da fila, este é meu cliente 0
         if (i == len)
